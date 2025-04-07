@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  background-color: #2d3436;
+  color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+header p {
+  font-size: 1.3rem;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+/* Menu Sections */
+.menu-section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+  text-align: center;
+  background: linear-gradient(to right, #ff6347, #e74c3c);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.8rem;
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-section li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+}
+
+.menu-section li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.menu-section .food-item {
+  font-weight: bold;
+}
+
+.menu-section .price {
+  font-style: italic;
+  color: #27ae60;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2d3436;
+  color: #fff;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
